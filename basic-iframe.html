@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Regime Map embeds: iframe form</title>
+<style>body { max-width: 760px; margin: 40px auto; padding: 0 16px; font: 16px/1.6 system-ui, sans-serif; }</style>
+</head>
+<body>
+<h1>Regime Map embeds: iframe form</h1>
+<p>For sites that strip scripts but allow iframes (many WordPress setups, Ghost, Webflow, Squarespace).</p>
+<!-- The code below is exactly what https://regimemap.com/data-api/ gives (copied 2026-11-02). -->
+
+<iframe src="https://regimemap.com/embed/v1/frame/map/?lang=en&region=world&theme=light" title="Gambling regulation map, Regime Map" loading="lazy" referrerpolicy="origin" style="width:100%;aspect-ratio:16/10;min-height:420px;border:0"></iframe>
+<p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+
+<!-- The card's height: regimemap.com/data-api/ measures it per country and language
+     at 360 px wide and writes it into the code. 472 px is France in English. -->
+<iframe src="https://regimemap.com/embed/v1/frame/country/FR/?lang=en&theme=light" title="France: gambling regulation, Regime Map" loading="lazy" referrerpolicy="origin" style="width:100%;height:472px;border:0"></iframe>
+<p>Source: <a href="https://regimemap.com/gambling-regulation-map/france/">Regime Map</a></p>
+</body>
+</html>

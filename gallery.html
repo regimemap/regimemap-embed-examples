@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Regime Map embeds: every option</title>
+<!-- Every documented option: the five products a map can show first, the five regions, light
+     and dark, the map in four of its 39 languages, and the France card in fourteen. Each cell
+     holds exactly the code https://regimemap.com/data-api/ gives (copied 2026-11-02), loader
+     included: it loads once however many times it is pasted. -->
+<style>
+  body { margin: 0; padding: 32px 16px 60px; font: 15px/1.5 system-ui, sans-serif; background: #f4f4f1; color: #1a1a1a; }
+  h1 { max-width: 1180px; margin: 0 auto 6px; } .lead { max-width: 1180px; margin: 0 auto 28px; color: #555; }
+  h2 { max-width: 1180px; margin: 36px auto 12px; font-size: 18px; }
+  .grid { max-width: 1180px; margin: 0 auto; display: grid; grid-template-columns: repeat(auto-fill, minmax(360px, 1fr)); gap: 24px; }
+  .cell { background: #fff; padding: 14px; border-radius: 8px; }
+  .cell.dark { background: #111418; color: #ddd; } .cell.dark a { color: #9cc3ff; }
+  .tag { font: 12px/1 ui-monospace, monospace; color: #888; margin-bottom: 8px; }
+  .cell > p { font-size: 13px; margin: 6px 0 0; }
+</style>
+</head>
+<body>
+<h1>Regime Map embeds: every option</h1>
+<p class="lead">Products <code>online_casino · sports_betting · poker · lottery · land_based</code> (the first one shown; readers switch), regions <code>world · europe · americas · africa · asia</code>, themes <code>light · dark · auto</code>, 39 languages (<code>en es no pt ja ko ru de fr it nl pl uk tr sv da fi cs sk hu ro el bg hr sr-Latn sl mk sq lt lv et is ca kk uz az ka hy zh-Hant</code>).</p>
+
+<h2>The map: the product shown first</h2>
+<div class="grid">
+  <div class="cell"><div class="tag">online casino (the default)</div>
+    <div data-regimemap="map" data-lang="en" data-region="world" data-theme="light">Interactive map: gambling regulation by country.</div>
+    <p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-product=&quot;sports_betting&quot;</div>
+    <div data-regimemap="map" data-product="sports_betting" data-lang="en" data-region="world" data-theme="light">Interactive map: gambling regulation by country.</div>
+    <p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-product=&quot;poker&quot;</div>
+    <div data-regimemap="map" data-product="poker" data-lang="en" data-region="world" data-theme="light">Interactive map: gambling regulation by country.</div>
+    <p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-product=&quot;lottery&quot;</div>
+    <div data-regimemap="map" data-product="lottery" data-lang="en" data-region="world" data-theme="light">Interactive map: gambling regulation by country.</div>
+    <p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-product=&quot;land_based&quot;</div>
+    <div data-regimemap="map" data-product="land_based" data-lang="en" data-region="world" data-theme="light">Interactive map: gambling regulation by country.</div>
+    <p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+</div>
+
+<h2>The map: regions and the dark theme</h2>
+<div class="grid">
+  <div class="cell"><div class="tag">data-region=&quot;europe&quot;</div>
+    <div data-regimemap="map" data-lang="en" data-region="europe" data-theme="light">Interactive map: gambling regulation by country.</div>
+    <p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-region=&quot;americas&quot;</div>
+    <div data-regimemap="map" data-lang="en" data-region="americas" data-theme="light">Interactive map: gambling regulation by country.</div>
+    <p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-region=&quot;africa&quot;</div>
+    <div data-regimemap="map" data-lang="en" data-region="africa" data-theme="light">Interactive map: gambling regulation by country.</div>
+    <p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-region=&quot;asia&quot;</div>
+    <div data-regimemap="map" data-lang="en" data-region="asia" data-theme="light">Interactive map: gambling regulation by country.</div>
+    <p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell dark"><div class="tag">data-theme=&quot;dark&quot;</div>
+    <div data-regimemap="map" data-lang="en" data-region="world" data-theme="dark">Interactive map: gambling regulation by country.</div>
+    <p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+</div>
+
+<h2>The map in other languages (the code follows the language)</h2>
+<div class="grid">
+  <div class="cell"><div class="tag">data-lang=&quot;de&quot;</div>
+    <div data-regimemap="map" data-lang="de" data-region="world" data-theme="light">Interaktive Karte: Glücksspielregulierung nach Ländern.</div>
+    <p>Karte: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;uk&quot;</div>
+    <div data-regimemap="map" data-lang="uk" data-region="world" data-theme="light">Інтерактивна карта: регулювання азартних ігор за країнами.</div>
+    <p>Карта: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;ja&quot;</div>
+    <div data-regimemap="map" data-lang="ja" data-region="world" data-theme="light">インタラクティブ地図：国別のギャンブル規制。</div>
+    <p>地図：<a href="https://regimemap.com/ja/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;zh-Hant&quot;</div>
+    <div data-regimemap="map" data-lang="zh-Hant" data-region="world" data-theme="light">互動地圖：各國及地區的博彩規管。</div>
+    <p>地圖：<a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+</div>
+
+<h2>The country card in fourteen languages</h2>
+<div class="grid">
+  <div class="cell"><div class="tag">data-lang=&quot;en&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="en" data-theme="light">France: gambling regulation by product.</div>
+    <p>Source: <a href="https://regimemap.com/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;es&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="es" data-theme="light">Regulación del juego en Francia, por producto.</div>
+    <p>Fuente: <a href="https://regimemap.com/es/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;no&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="no" data-theme="light">Regulering av pengespill i Frankrike, etter produkt.</div>
+    <p>Kilde: <a href="https://regimemap.com/no/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;pt&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="pt" data-theme="light">França: regulação de jogos de azar por produto.</div>
+    <p>Fonte: <a href="https://regimemap.com/pt/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;ja&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="ja" data-theme="light">フランス：種類別のギャンブル規制。</div>
+    <p>出典：<a href="https://regimemap.com/ja/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;ko&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="ko" data-theme="light">프랑스의 분야별 도박 규제.</div>
+    <p>출처: <a href="https://regimemap.com/ko/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;ru&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="ru" data-theme="light">Франция: регулирование азартных игр по видам.</div>
+    <p>Источник: <a href="https://regimemap.com/ru/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;de&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="de" data-theme="light">Frankreich: Glücksspielregulierung nach Spielart.</div>
+    <p>Quelle: <a href="https://regimemap.com/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;fr&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="fr" data-theme="light">France : réglementation des jeux d’argent, par produit.</div>
+    <p>Source : <a href="https://regimemap.com/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;uk&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="uk" data-theme="light">Франція: регулювання азартних ігор за видами.</div>
+    <p>Джерело: <a href="https://regimemap.com/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;zh-Hant&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="zh-Hant" data-theme="light">法國各類博彩的規管。</div>
+    <p>資料來源：<a href="https://regimemap.com/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;hy&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="hy" data-theme="light">Ֆրանսիա. մոլախաղերի կարգավորումն ըստ խաղատեսակների։</div>
+    <p>Աղբյուրը՝ <a href="https://regimemap.com/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;ka&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="ka" data-theme="light">საფრანგეთი: აზარტული თამაშების რეგულირება სახეების მიხედვით.</div>
+    <p>წყარო: <a href="https://regimemap.com/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell"><div class="tag">data-lang=&quot;el&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="el" data-theme="light">Γαλλία: ρύθμιση τυχερών παιγνίων ανά είδος.</div>
+    <p>Πηγή: <a href="https://regimemap.com/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+  <div class="cell dark"><div class="tag">data-theme=&quot;dark&quot;</div>
+    <div data-regimemap="country" data-country="FR" data-lang="en" data-theme="dark">France: gambling regulation by product.</div>
+    <p>Source: <a href="https://regimemap.com/gambling-regulation-map/france/">Regime Map</a></p>
+    <script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+  </div>
+</div>
+</body>
+</html>

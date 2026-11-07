@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Regime Map embeds: script form</title>
+<style>body { max-width: 760px; margin: 40px auto; padding: 0 16px; font: 16px/1.6 system-ui, sans-serif; }</style>
+</head>
+<body>
+<h1>Regime Map embeds: script form</h1>
+<!-- The code below is exactly what https://regimemap.com/data-api/ gives (copied 2026-11-02). -->
+
+<!-- The world map: five products, online casino shown first -->
+<div data-regimemap="map" data-lang="en" data-region="world" data-theme="light">Interactive map: gambling regulation by country.</div>
+<p>Map: <a href="https://regimemap.com/gambling-regulation-map/">Regime Map</a></p>
+<script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+
+<!-- One country, all five products -->
+<div data-regimemap="country" data-country="FR" data-lang="en" data-theme="light">France: gambling regulation by product.</div>
+<p>Source: <a href="https://regimemap.com/gambling-regulation-map/france/">Regime Map</a></p>
+<script async src="https://regimemap.com/embed/v1/embed.js" referrerpolicy="no-referrer"></script>
+<!-- The loader loads once, however many times it is pasted. -->
+</body>
+</html>
